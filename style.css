@@ -1,0 +1,513 @@
+@font-face {
+    font-family: Vazir;
+    src: url(./font/Vazir.ttf) format(ttf);
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: Vazir;
+    background-color: rgb(61, 61, 61);
+}
+
+.logo {
+    height: 100%;
+    width: 100%;
+}
+
+.frosh {
+    display: inline-block;
+    margin: 10px 30px 10px 0px;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+}
+
+.gh {
+    text-align: left;
+    border-radius: 10px;
+    color: rgb(63, 63, 63);
+    padding: 10px 30px 10px 70%;
+    background-color: rgb(196, 196, 196);
+    display: inline-block;
+    margin: 0px 40px 0px 0px
+}
+
+.ewe {
+    display: inline-block;
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+    padding: 10px 20px 10px 20px;
+    margin: 10px 30px 10px 10px;
+}
+
+.navbar {
+    display: flex;
+    list-style: none;
+    margin-right: 150px;
+}
+
+.navbar li {
+    padding-right: 10px;
+    position: relative;
+}
+
+.navbar li a {
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.drop-down {
+    list-style: none;
+    position: absolute;
+    background-color: #0000007a;
+    border-radius: 5px;
+    height: 0px;
+    transition: 0.1s;
+    visibility: hidden;
+    padding: 25px;
+    margin-right: 20px;
+}
+
+.navbar li:hover .drop-down {
+    border-radius: 5px;
+    height: 200px;
+    visibility: visible;
+}
+
+.drop-down li {
+    padding: 5px;
+}
+
+.bgb {
+    border-left: solid 1px;
+    padding: 0px 30px 0px 50px;
+    margin: 50px 30px 50px 0px;
+}
+
+
+/* media query */
+
+@media screen and (max-width:320px) {
+    @font-face {
+        font-family: Vazir;
+        src: url(./font/Vazir.ttf) format(ttf);
+    }
+    
+    body {
+        display: inline-block;
+        padding: 0;
+        margin: 0;
+        font-family: Vazir;
+        background-color: rgb(61, 61, 61);
+    }
+
+    .logo {
+        height: 40px;
+        width: 1000px;
+    }
+
+    .frosh {
+        text-align: left;
+        display: inline-block;
+        margin: 20px 40px 0px 0px;
+        color: rgb(255, 255, 255);
+        font-size: 30px;
+    }
+
+    .gh {
+        text-align: right;
+        display: inline-block;
+        border-radius: 10px;
+        color: rgb(63, 63, 63);
+        padding: 10px 30px 10px 570px;
+        background-color: rgb(196, 196, 196);
+        margin: 0px 10px 0px 0px
+    }
+
+    .navbar {
+        display: flex;
+        list-style: none;
+        margin-right: 220px;
+    }
+    
+    .navbar li {
+        padding-right: 10px;
+        position: relative;
+    }
+    
+    .navbar li a {
+        color: white;
+        text-decoration: none;
+        font-size: 17px;
+    }
+    
+    .drop-down {
+        list-style: none;
+        position: absolute;
+        background-color: #0000007a;
+        border-radius: 5px;
+        height: 0px;
+        transition: 0.1s;
+        visibility: hidden;
+        padding: 25px;
+        margin-right: 20px;
+        margin-top: 10px;
+    }
+    
+    .navbar li:hover .drop-down {
+        border-radius: 5px;
+        height: 200px;
+        visibility: visible;
+    }
+    
+    .drop-down li {
+        padding: 5px;
+    }
+    
+    .bgb {
+        border-left: solid 1px;
+        padding: 0px 30px 0px 50px;
+        margin: 50px 30px 50px 0px;
+    }
+
+}
+
+@media screen and (max-width:375px) {
+    @font-face {
+        font-family: Vazir;
+        src: url(./font/Vazir.ttf) format(ttf);
+    }
+    
+    body {
+        display: inline-block;
+        padding: 0;
+        margin: 0;
+        font-family: Vazir;
+        background-color: rgb(61, 61, 61);
+    }
+
+    .logo {
+        height: 40px;
+        width: 1000px;
+    }
+
+    .frosh {
+        text-align: left;
+        display: inline-block;
+        margin: 20px 40px 0px 0px;
+        color: rgb(255, 255, 255);
+        font-size: 30px;
+    }
+
+    .gh {
+        text-align: right;
+        display: inline-block;
+        border-radius: 10px;
+        color: rgb(63, 63, 63);
+        padding: 10px 30px 10px 570px;
+        background-color: rgb(196, 196, 196);
+        margin: 0px 10px 0px 0px
+    }
+
+    .navbar {
+        display: flex;
+        list-style: none;
+        margin-right: 220px;
+    }
+    
+    .navbar li {
+        padding-right: 10px;
+        position: relative;
+    }
+    
+    .navbar li a {
+        color: white;
+        text-decoration: none;
+        font-size: 17px;
+    }
+    
+    .drop-down {
+        list-style: none;
+        position: absolute;
+        background-color: #0000007a;
+        border-radius: 5px;
+        height: 0px;
+        transition: 0.1s;
+        visibility: hidden;
+        padding: 25px;
+        margin-right: 20px;
+        margin-top: 10px;
+    }
+    
+    .navbar li:hover .drop-down {
+        border-radius: 5px;
+        height: 200px;
+        visibility: visible;
+    }
+    
+    .drop-down li {
+        padding: 5px;
+    }
+    
+    .bgb {
+        border-left: solid 1px;
+        padding: 0px 30px 0px 50px;
+        margin: 50px 30px 50px 0px;
+    }
+
+}
+
+@media screen and (max-width:425px) {
+    @font-face {
+        font-family: Vazir;
+        src: url(./font/Vazir.ttf) format(ttf);
+    }
+    
+    body {
+        display: inline-block;
+        padding: 0;
+        margin: 0;
+        font-family: Vazir;
+        background-color: rgb(61, 61, 61);
+    }
+
+    .logo {
+        height: 40px;
+        width: 1000px;
+    }
+
+    .frosh {
+        text-align: left;
+        display: inline-block;
+        margin: 20px 40px 0px 0px;
+        color: rgb(255, 255, 255);
+        font-size: 30px;
+    }
+
+    .gh {
+        text-align: right;
+        display: inline-block;
+        border-radius: 10px;
+        color: rgb(63, 63, 63);
+        padding: 10px 30px 10px 570px;
+        background-color: rgb(196, 196, 196);
+        margin: 0px 10px 0px 0px
+    }
+
+    .navbar {
+        display: flex;
+        list-style: none;
+        margin-right: 220px;
+    }
+    
+    .navbar li {
+        padding-right: 10px;
+        position: relative;
+    }
+    
+    .navbar li a {
+        color: white;
+        text-decoration: none;
+        font-size: 17px;
+    }
+    
+    .drop-down {
+        list-style: none;
+        position: absolute;
+        background-color: #0000007a;
+        border-radius: 5px;
+        height: 0px;
+        transition: 0.1s;
+        visibility: hidden;
+        padding: 25px;
+        margin-right: 20px;
+        margin-top: 10px;
+    }
+    
+    .navbar li:hover .drop-down {
+        border-radius: 5px;
+        height: 200px;
+        visibility: visible;
+    }
+    
+    .drop-down li {
+        padding: 5px;
+    }
+    
+    .bgb {
+        border-left: solid 1px;
+        padding: 0px 30px 0px 50px;
+        margin: 50px 30px 50px 0px;
+    }
+
+}
+
+@media screen and (max-width:768px) {
+    @font-face {
+        font-family: Vazir;
+        src: url(./font/Vazir.ttf) format(ttf);
+    }
+    
+    body {
+        display: inline-block;
+        padding: 0;
+        margin: 0;
+        font-family: Vazir;
+        background-color: rgb(61, 61, 61);
+    }
+
+    .logo {
+        height: 40px;
+        width: 1000px;
+    }
+
+    .frosh {
+        text-align: left;
+        display: inline-block;
+        margin: 20px 40px 0px 0px;
+        color: rgb(255, 255, 255);
+        font-size: 20px;
+    }
+
+    .gh {
+        text-align: right;
+        display: inline-block;
+        border-radius: 10px;
+        color: rgb(63, 63, 63);
+        padding: 10px 30px 10px 570px;
+        background-color: rgb(196, 196, 196);
+        margin: 0px 10px 0px 0px
+    }
+
+    .navbar {
+        list-style: none;
+        margin-right: 170px;
+    }
+    
+    .navbar li {
+        padding-right: 10px;
+        position: relative;
+    }
+    
+    .navbar li a {
+        color: white;
+        text-decoration: none;
+        font-size: 17px;
+    }
+    
+    .drop-down {
+        list-style: none;
+        position: absolute;
+        background-color: #0000007a;
+        border-radius: 5px;
+        height: 0px;
+        transition: 0.1s;
+        visibility: hidden;
+        padding: 25px;
+        margin-right: 20px;
+        margin-top: 10px;
+    }
+    
+    .navbar li:hover .drop-down {
+        border-radius: 5px;
+        height: 200px;
+        visibility: visible;
+    }
+    
+    .drop-down li {
+        padding: 5px;
+    }
+    
+    .bgb {
+        border-left: solid 1px;
+        padding: 0px 30px 0px 50px;
+        margin: 50px 30px 50px 0px;
+    }
+
+}
+
+@media screen and (max-width:1024px) {
+    @font-face {
+        font-family: Vazir;
+        src: url(./font/Vazir.ttf) format(ttf);
+    }
+    
+    body {
+        display: inline-block;
+        padding: 0;
+        margin: 0;
+        font-family: Vazir;
+        background-color: rgb(61, 61, 61);
+    }
+
+    .logo {
+        height: 45px;
+        width: 1160px;
+    }
+
+    .frosh {
+        text-align: left;
+        display: inline-block;
+        margin: 20px 40px 0px 0px;
+        color: rgb(255, 255, 255);
+        font-size: 20px;
+    }
+
+    .gh {
+        text-align: right;
+        display: inline-block;
+        border-radius: 10px;
+        color: rgb(63, 63, 63);
+        padding: 10px 30px 10px 670px;
+        background-color: rgb(196, 196, 196);
+        margin: 0px 10px 0px 0px
+    }
+
+    .navbar {
+        display: flex;
+        list-style: none;
+        margin-right: 150px;
+    }
+    
+    .navbar li {
+        padding-right: 10px;
+        position: relative;
+    }
+    
+    .navbar li a {
+        color: white;
+        text-decoration: none;
+        font-size: 17px;
+    }
+    
+    .drop-down {
+        list-style: none;
+        position: absolute;
+        background-color: #0000007a;
+        border-radius: 5px;
+        height: 0px;
+        transition: 0.1s;
+        visibility: hidden;
+        padding: 25px;
+        margin-right: 20px;
+        margin-top: 10px;
+    }
+    
+    .navbar li:hover .drop-down {
+        border-radius: 5px;
+        height: 200px;
+        visibility: visible;
+    }
+    
+    .drop-down li {
+        padding: 5px;
+    }
+    
+    .bgb {
+        border-left: solid 1px;
+        padding: 0px 30px 0px 50px;
+        margin: 50px 30px 50px 0px;
+    }
+
+}
